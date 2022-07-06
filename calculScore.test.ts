@@ -23,6 +23,14 @@ describe('Calcul bowling score when no spares or strikes', function() {
 
 describe('Calcul bowling score when spares and no strikes', function() {
 
+    it('', function() {
+        let result = 0;
+        const rolls: number[] = [5,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
+
+        result = calculScore(rolls);
+
+        assert.equal(result, 20);
+    })
 })
 
 describe('Calcul bowling score when strikes and no spares', function() {
